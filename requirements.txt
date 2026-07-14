@@ -1,0 +1,18 @@
+# --- MCP analysis server ---
+mcp>=1.2.0            # FastMCP server + client (Model Context Protocol SDK)
+pandas>=2.2.0
+duckdb>=1.0.0
+openpyxl>=3.1.0      # Excel (.xlsx) reading for pandas
+scipy>=1.13.0        # statistics (M3)
+matplotlib>=3.9.0    # chart rendering (M3)
+
+# --- Agent host / provider switch (M4+) ---
+litellm>=1.50.0      # unified LLM interface: ollama | gemini | groq
+python-dotenv>=1.0.0
+
+# --- UI (M6) ---
+streamlit>=1.38.0
+
+# --- Dev ---
+pytest>=8.0.0
+pytest-asyncio>=0.24.0
